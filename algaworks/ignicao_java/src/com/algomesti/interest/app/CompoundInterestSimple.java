@@ -1,3 +1,5 @@
+package com.algomesti.interest.app;
+
 import java.math.BigDecimal;
 
 public class CompoundInterestSimple {
