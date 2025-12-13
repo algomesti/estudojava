@@ -6,7 +6,6 @@ import java.util.Objects;
 public class CheckingAccount extends Account {
 
     private final BigDecimal MONTH_FEE = BigDecimal.valueOf(15.05);
-    private BigDecimal balance = BigDecimal.ZERO;
 
     public CheckingAccount(int branchNumber, int number, Person person) {
 

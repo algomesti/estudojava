@@ -8,7 +8,7 @@ public class Atm {
 
     public static void printBalance(Account account) {
 
-        System.out.printf("%nCliente: %s:%s", account.getClient().document(), account.getClient().name());
+        System.out.printf("%nCliente: %s:%s", account.getClient().getDocument(), account.getClient().getDocument());
         System.out.printf("%nAgência: %s", account.getBranchNumber());
         System.out.printf("%nConta: %s", account.getNumber());
         System.out.printf("%nSaldo: %s", account.getBalanceAvailable());
